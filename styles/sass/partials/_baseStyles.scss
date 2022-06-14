@@ -26,12 +26,12 @@ section {
         color: $solidWhite;
     }
 }
-.aboutButton{
+.aboutButton {
     color: $solidWhite;
     background-color: $primary;
     &:hover, &focus{
         background-color: transparent;
         color: $primary;
     }
-    
 }
+    
