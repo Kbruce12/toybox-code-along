@@ -1,5 +1,9 @@
 // Categories 
 
+.catergories {
+    margin-top: 90px;
+}
+
 .categoryList {
     display: flex;
     flex-wrap: wrap;
@@ -34,7 +38,29 @@
             transform: scale(0.9)
         }
     }
+}
 
+
+// Let Them Play
+
+.play {
+    background-image: url(../assets/background-image.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 70vh;
+    .wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 70vh;
+        .playContent {
+            width: 60%;
+            border: 24px solid $secondary;
+            background-color: $solidWhite;
+            padding: 60px; 
+            text-align: center;
+        }
+    }
 }
 
 
@@ -44,6 +70,3 @@
 
 
 
-
-
-// Let Them Play
