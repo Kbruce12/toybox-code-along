@@ -2,8 +2,8 @@
 // Create a functional nav-menu pop out
 // create variables that select the menu button as well as the 'X' while the pop out nav is open
 // Create a variable to target the entire slide out nav
-// Toggle its class to either show or hide
 // Add eventlisteners('click') to both the menu button as well as the 'x'
+// Toggle its class to either show or hide on each corresponding button
 
 
 const openButton = document.querySelector('.menuButton img');
