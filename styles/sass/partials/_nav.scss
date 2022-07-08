@@ -36,9 +36,6 @@
     input[type=checkbox]{
         opacity: 0;
         position: absolute;
-        &:checked ~ .slideOutNav{
-            left: 0;
-        }
     }
 }
 .searchCart {
@@ -99,4 +96,11 @@
     color: $solidWhite;
     font-size: 1.2rem;
 }
+
+.openSlideBar {
+    opacity: 1;
+    position: absolute;
+    left: 0;
+}
+
     
